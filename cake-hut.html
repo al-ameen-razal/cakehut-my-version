@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        margin: 0;
+      }
+      .first-div {
+        margin-top: 25px;
+        margin-right: 25px;
+        display: flex;
+        justify-content: space-between;
+        padding: 8px;
+      }
+      .first-div > * {
+        flex-grow: 1;
+      }
+      .first-half {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0px;
+      }
+      .second-half {
+        display: flex;
+        gap: 20px;
+        align-items: center;
+        margin: 0px;
+        justify-content: end;
+      }
+      .second-half div div {
+        text-align: center;
+      }
+      .heart {
+        width: 100px;
+        height: 90px;
+        margin: 0px;
+      }
+      .search input {
+        width: 20rem;
+        background-color: #eeeeee;
+      }
+      .search * {
+        font-size: small;
+        padding: 5px;
+        border: none;
+        background-color: #cecdcd;
+      }
+      .search {
+        display: flex;
+      }
+      .navbar {
+        position: sticky;
+        left: 0px;
+        top: 0px;
+
+        justify-content: space-around;
+        background-color: #f57231;
+        color: white;
+        display: flex;
+        justify-content: start;
+      }
+      .navbar > div {
+        padding: 25px;
+        cursor: pointer;
+      }
+      .navbar > div:hover {
+        background-color: #c46e43;
+      }
+      footer {
+        display: flex;
+      }
+      .footerabout p {
+        color: grey;
+      }
+
+      .footerabout {
+        flex-grow: 1;
+      }
+      .footercontact {
+        flex-grow: 2;
+        width: 55%;
+      }
+      .underline {
+        text-decoration: underline;
+        text-decoration-color: #f57231;
+      }
+      .symbol:hover {
+        background-color: #c46e43;
+      }
+      .blackfooter {
+        background-color: rgba(34, 34, 34, 1);
+        color: white;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+      }
+      .blackfooter h3 {
+        color: #555555;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+          Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+          sans-serif;
+      }
+      .blackfooter div {
+        color: #727684;
+        opacity: 0.8;
+        font-size: small;
+        font-weight: 100;
+        font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+          "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+      }
+      .blackfooter div a {
+        color: #ddd;
+        text-decoration: none;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="first-div">
+      <div class="first-half">
+        <div id="logo">
+          <a href="cake-hut.html"
+            ><img
+              src="https://www.cakehut.in/image/catalog/logos/cakeHutLogo.png"
+              alt=""
+              width="100px"
+          /></a>
+        </div>
+        <div class="search">
+          <input type="text" placeholder="Search" /><button>🔍</button>
+        </div>
+      </div>
+      <div class="second-half">
+        <div>
+          <div style="font-size: 48px">
+            <a href="pages/wishlist.html" style="text-decoration: none">♡</a>
+          </div>
+          <div><span>wishlist</span></div>
+        </div>
+        <div>
+          <a href="" style="font-size: 48px; text-decoration: none">👤</a>
+          <div><span>My account</span></div>
+        </div>
+        <div>
+          <a
+            href="/assignment/pages/cart.html"
+            style="font-size: 48px; text-decoration: none"
+            >🛒</a
+          >
+          <div><span>Cart</span></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="navbar">
+      <div>Our Collections</div>
+      <div>
+        <a
+          href="/assignment/pages/about-us.html"
+          style="text-decoration: none; color: white"
+          >About Us</a
+        >
+      </div>
+      <div>X-Mas and New Year Cakes</div>
+      <div>Offers</div>
+      <div>Track Your Order</div>
+      <div>Contact Us</div>
+      <div>Menu Items</div>
+    </div>
+
+    <div style="cursor: pointer">
+      <img
+        src="PHOTO-2023-12-07-18-25-05-3200x1256.jpg.webp"
+        alt=""
+        width="100%"
+      />
+    </div>
+
+    <div>CAKES LIST</div>
+
+    <footer style="background-color: #ddd">
+      <div class="footerabout">
+        <h3 class="underline" style="text-align: center">ABOUT US</h3>
+        <p>
+          Cake hut <sup>TM</sup> was established in September 2012 and is now
+          one of the most popular Confectionery in Cochin.
+        </p>
+        <p>
+          Equipments being used are best and the Latest technology in the field
+          of Bakery and Confectionery. Cake Hut serves you with a wide variety
+          of cakes, comes in all shapes
+        </p>
+        <p>
+          and flavours. We offer cakes for various occasions,decorated the way
+          you want it. At Cake Hut, we use quality ingredients and have
+          expertised cheffs. You will find the difference in every bite. We have
+          created multiple relationships in a short time, with thousands of
+          happy customers. We ensure all your celebrations begins here!
+        </p>
+      </div>
+      <div class="footercontact">
+        <h3 class="underline">CONTACT US</h3>
+        <div><div class="underline"></div></div>
+        <div style="display: flex; flex-direction: row">
+          <div class="symbol">☎</div>
+          <div>8086000083</div>
+        </div>
+        <div style="display: flex; flex-direction: row">
+          <div class="symbol">☏</div>
+          <div>8086000081</div>
+        </div>
+        <div style="display: flex; flex-direction: row">
+          <div class="symbol">✉</div>
+          <div>info@cakehut.in</div>
+        </div>
+      </div>
+    </footer>
+
+    <div class="blackfooter">
+      <div>
+        <h3>INFORMATION</h3>
+        <div
+          style="
+            height: 2px;
+            max-width: 50px;
+            background-color: #ff691e;
+            text-align: center;
+          "
+        ></div>
+        <div><a href="/assignment/pages/about-us.html">About Us</a></div>
+        <div><a href="">Loyalty Discount Program</a></div>
+        <div><a href="">Delivery Information</a></div>
+        <div><a href="">FAQ's</a></div>
+        <div><a href="">Privacy Policy</a></div>
+        <div><a href="">Terms & Conditions</a></div>
+        <div><a href="">Copyright And Trademark Policy</a></div>
+      </div>
+
+      <div>
+        <h3>CUSTOMER SERVICE</h3>
+        <div
+          style="
+            height: 2px;
+            max-width: 50px;
+            background-color: #ff691e;
+            text-align: center;
+          "
+        ></div>
+        <div><a href="">Contact Us</a></div>
+        <div><a href="">Gift Vouchers</a></div>
+        <div><a href="">Specials</a></div>
+        <div><a href="">Returns</a></div>
+        <div><a href="">Site Map</a></div>
+      </div>
+
+      <div>
+        <h3>CATEGORIES</h3>
+        <div
+          style="
+            height: 2px;
+            max-width: 50px;
+            background-color: #ff691e;
+            text-align: center;
+          "
+        ></div>
+        <div><a href="">All Products</a></div>
+        <div><a href="">Same day Delivery</a></div>
+        <div><a href="">X-Mas/New Year Cakes</a></div>
+        <div><a href="">Shape Cakes</a></div>
+        <div><a href="">Heart & Flower Cakes</a></div>
+        <div><a href="">Kids Cake</a></div>
+        <div><a href="">Picture/photo Cake</a></div>
+        <div><a href="">All occasion cakes</a></div>
+      </div>
+
+      <div>
+        <h3>MY ACCOUNTS</h3>
+        <div
+          style="
+            height: 2px;
+            max-width: 50px;
+            background-color: #ff691e;
+            text-align: center;
+          "
+        ></div>
+        <div><a href="">My Account</a></div>
+        <div><a href="">Order History</a></div>
+        <div><a href="">Wish List</a></div>
+        <div><a href="">Newsletter</a></div>
+      </div>
+    </div>
+  </body>
+</html>

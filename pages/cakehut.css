@@ -1,0 +1,118 @@
+body {
+margin: 0;
+}
+.first-div {
+margin-top: 25px;
+margin-right: 25px;
+display: flex;
+justify-content: space-between;
+padding: 8px;
+}
+.first-div > * {
+flex-grow: 1;
+}
+.first-half {
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin: 0px;
+}
+.second-half {
+display: flex;
+gap: 20px;
+align-items: center;
+margin: 0px;
+justify-content: end;
+}
+.second-half div div {
+text-align: center;
+}
+.heart {
+width: 100px;
+height: 90px;
+margin: 0px;
+text-decoration: none;
+}
+.search input {
+width: 20rem;
+background-color: #eeeeee;
+}
+.search * {
+font-size: small;
+padding: 5px;
+border: none;
+background-color: #cecdcd;
+}
+.search {
+display: flex;
+}
+.navbar {
+position: sticky;
+left: 0px;
+top: 0px;
+
+justify-content: space-around;
+background-color: #f57231;
+color: white;
+display: flex;
+justify-content: start;
+}
+.navbar > div {
+padding: 25px;
+cursor: pointer;
+}
+.navbar > div:hover {
+background-color: #c46e43;
+}
+footer {
+display: flex;
+}
+.footerabout p {
+color: grey;
+}
+
+.footerabout {
+flex-grow: 1;
+}
+.footercontact {
+flex-grow: 2;
+width: 55%;
+}
+.underline {
+text-decoration: underline;
+text-decoration-color: #f57231;
+}
+.symbol:hover {
+background-color: #c46e43;
+}
+.blackfooter {
+background-color: rgba(34, 34, 34, 1);
+color: white;
+display: flex;
+flex-direction: row;
+justify-content: space-evenly;
+}
+.blackfooter h3 {
+color: #555555;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+    sans-serif;
+}
+.blackfooter div {
+color: #727684;
+opacity: 0.8;
+font-size: small;
+font-weight: 100;
+font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.blackfooter div a {
+color: #ddd;
+text-decoration: none;
+}
+.homeacc{
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 186x;
+    color: grey;
+}
