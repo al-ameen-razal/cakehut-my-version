@@ -1,3 +1,30 @@
+.forgotten-password{
+    text-decoration: none;
+    color: #338dd0;
+}
+.forgotten-password:hover{
+    color: #f57231;
+}
+.branches-decoration{
+     display: flex;
+     justify-content: space-between;
+     margin-bottom: 28px;
+     padding-bottom: 20px;
+     border-bottom: 2px solid;
+     border-color: #ddd;
+     color: black;
+}
+.branches-decoration:hover{
+    color: #f57231;
+}
+
+.button{
+    background-color: #f57231;
+    color: white;
+}
+.button:hover{
+   background-color: black;
+}
 body {
 margin: 0;
 }
@@ -62,6 +89,13 @@ padding: 25px;
 cursor: pointer;
 }
 .navbar > div:hover {
+background-color: #c46e43;
+}
+.navbar > a {
+padding: 25px;
+cursor: pointer;
+}
+.navbar  a:hover {
 background-color: #c46e43;
 }
 footer {
