@@ -149,3 +149,55 @@ footer {
   font-size: 186x;
   color: grey;
 }
+.cakes{
+  height: auto;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-evenly;
+  justify-content: center;
+  column-gap: 5px;
+  row-gap: 5px;
+  overflow: auto;
+}
+.cakes-image{
+  height: 300px;
+  width: 310px;
+}
+.price{
+  -webkit-box-flex: 1;
+  flex-grow: 1;
+  align-content: center;
+}
+.cakename{
+  display: flex;
+  width: auto;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  left: 50%;
+  right: auto;
+  position: static;
+  transform: none;
+  padding: 5px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-top: -15px;
+  margin-bottom: 10px;
+  text-decoration: none;
+}
+.division-heading-style{
+  font-family: 'Pavanam';
+  font-weight: 700;
+  font-size: 21px;
+  color: rgba(0, 0, 0, 1);
+  text-transform: uppercase;
+  text-decoration: none;
+  margin-bottom: 15px;
+  white-space: normal;
+  overflow: visible;
+  text-overflow: initial;
+  text-align: center;
+  text-decoration: underline;
+  text-decoration-color: #f57231;
+}
