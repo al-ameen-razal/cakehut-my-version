@@ -21,9 +21,16 @@
 .button {
   background-color: #f57231;
   color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 2px;
+  font-size: 12px;
+  transform: scaleX(1);
+  transition: transform 0.5s ease;
 }
 .button:hover {
   background-color: black;
+  transform: scaleX(1.1);
 }
 body {
   margin: 0;
@@ -171,6 +178,34 @@ footer {
 }
 .star:hover{
   color: gold;
+}
+.product-box {
+  
+  display: inline-block;
+  padding: 15px;
+  position: relative;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.popup {
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  background: rgb(218, 217, 217);
+  color: rgb(29, 28, 28);
+  padding: 8px 15px;
+  margin-top: 3px;
+  
+  border-radius: 3px;
+  opacity: 0;
+  pointer-events: none;
+  transition: 0.3s ease;
+}
+.product-box:hover .popup {
+  opacity: 1;
+  pointer-events: auto;
+  top: 110%;
 }
 .price{
   -webkit-box-flex: 1;
