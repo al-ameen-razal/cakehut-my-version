@@ -164,6 +164,14 @@ footer {
   height: 300px;
   width: 310px;
 }
+.star {
+  color: #f57231;
+  font-size: 25px;
+  align-content: center;
+}
+.star:hover{
+  color: gold;
+}
 .price{
   -webkit-box-flex: 1;
   flex-grow: 1;
