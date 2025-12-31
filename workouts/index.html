@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <style>
+      #navcontent {
+        color: rgb(63, 63, 167);
+      }
+      #navcontent:hover {
+        color: rgb(253, 161, 127);
+      }
+      #myDivWithBackground {
+        background-image: url("/bootstrap/ClassRoom/workouts/bulb-background.jpg");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        min-height: 300px;
+        background-color: #f0f0f0;
+      }
+    </style>
+  </head>
+  <body>
+    <div style="display: flex; justify-content: center">
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"
+            ><img
+              src="eunexlogo.jpeg"
+              alt="Logo"
+              width="300"
+              height="50"
+              class="d-inline-block align-text-top"
+            />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="#"
+                  id="navcontent"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#" id="navcontent">Company</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#" id="navcontent">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#" id="navcontent">Intelligence</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#" id="navcontent">News</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#" id="navcontent">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <!--nav bar ended-->
+    <!--Bulb division started-->
+    <div id="myDivWithBackground">
+      <div style="margin-left: 20%; margin-right: 40%; padding-top: 5%;padding-bottom: 10%;">
+        <h2 style="color: rgb(172, 48, 3)">GLOBAL</h2>
+        <h1 style="color: whitesmoke">FRAUD INTELLIGENCE</h1>
+        <p style="color: whitesmoke">
+          <small
+            >We aim to source and deliver targeted fraud intelligence to our
+            clients. Which allows them to significantly improve their fraud
+            detection results and reduce losses.</small
+          >
+        </p>
+        <div
+          class="btn-toolbar"
+          role="toolbar"
+          aria-label="Toolbar with button groups"
+        >
+          <div class="btn-group me-2" role="group" aria-label="First group">
+            <button type="button" class="btn btn-primary w-100 py-2 rounded-pill" style="background-color: orangered;border: none;font-size: small;" >CONTACT US</button>
+          </div>
+          <div class="btn-group me-2" role="group" aria-label="Second group">
+            <button type="button" class="btn btn-primary w-100 py-2 rounded-pill " style="background-color: orangered;border: none;font-size: small;">ABOUT US</button>
+          </div>
+          
+          </div>
+        </div>
+      </div>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
